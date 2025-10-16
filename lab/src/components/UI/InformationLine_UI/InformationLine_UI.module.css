@@ -1,0 +1,25 @@
+.container {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: 0.95rem;
+
+  height: 25px;
+}
+
+/* Адаптив */
+@media (max-width: 600px) {
+  .container {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
