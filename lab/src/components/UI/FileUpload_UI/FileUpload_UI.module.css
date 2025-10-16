@@ -1,17 +1,21 @@
 .container {
   margin-bottom: 15px;
+
   color: black;
 }
 
 .label {
   font-weight: 500;
+
   margin-right: 10px;
 }
 
 .input {
   padding: 5px;
+
   border-radius: 5px;
   border: 1px solid #ccc;
+
   width: 70%;
   max-width: 100%;
 }
